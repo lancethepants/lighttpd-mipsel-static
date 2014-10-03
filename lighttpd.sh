@@ -279,6 +279,8 @@ $CONFIGURE \
 --enable-shared \
 LUA_CFLAGS=$DEST/include \
 LUA_LIBS="$DEST/lib" \
+SQLITE_CFLAGS=$DEST/include \
+SQLITE_LIBS="$DEST/lib" \
 --with-openssl \
 --with-openssl-includes="$DEST/include" \
 --with-openssl-libs="$DEST/lib" \
