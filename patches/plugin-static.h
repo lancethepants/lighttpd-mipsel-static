@@ -43,7 +43,7 @@ PLUGIN_INIT(mod_proxy)
 PLUGIN_INIT(mod_staticfile)
 
 #ifdef HAVE_LUA
-PLUGIN_INIT(mod_cml) /* MEMCACHE LUA LUALIB */
+//PLUGIN_INIT(mod_cml) /* MEMCACHE LUA LUALIB */
 #endif
 
 PLUGIN_INIT(mod_trigger_b4_dl) /* PCRE */
