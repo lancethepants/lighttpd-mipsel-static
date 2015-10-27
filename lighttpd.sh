@@ -51,8 +51,8 @@ $WGET http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
 tar zxvf bzip2-1.0.6.tar.gz
 cd bzip2-1.0.6
 
-$WGET https://raw.githubusercontent.com/lancethepants/tomatoware/master/patches/bzip2.patch
-$WGET https://raw.githubusercontent.com/lancethepants/tomatoware/master/patches/bzip2_so.patch
+$WGET https://raw.githubusercontent.com/lancethepants/tomatoware/master/patches/bzip2/bzip2.patch
+$WGET https://raw.githubusercontent.com/lancethepants/tomatoware/master/patches/bzip2/bzip2_so.patch
 
 patch < bzip2.patch
 patch < bzip2_so.patch
@@ -94,7 +94,7 @@ $WGET ftp://ftp.cwru.edu/pub/bash/readline-6.2.tar.gz
 tar zxvf readline-6.2.tar.gz
 cd readline-6.2
 
-$WGET https://raw.github.com/lancethepants/tomatoware/master/patches/readline.patch
+$WGET https://raw.github.com/lancethepants/tomatoware/master/patches/readline/readline.patch
 patch < readline.patch
 
 LDFLAGS=$LDFLAGS \
